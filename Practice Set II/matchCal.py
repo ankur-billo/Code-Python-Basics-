@@ -12,3 +12,4 @@ match op:
         print(a,"*",b,"=",a*b)
     case _:
         print("Wrong Input!")
+        
