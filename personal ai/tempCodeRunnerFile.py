@@ -21,10 +21,10 @@ def completion(message):
    )
     
     chat_completion = client.chat.completions.create(messages=messages,
-    model="gpt-4.1"
+    model="gpt-5.2"
 )
 
-    print(chat_completion)
+print(chat_completion)
 
 if __name__ == "__main__":
     user_question = input("Hi, I'm your Sebak. Hpow can I saheta you?:\n")
